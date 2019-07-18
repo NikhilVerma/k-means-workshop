@@ -2,7 +2,7 @@ import './index.css';
 import '../index.css';
 
 const NUM_CLUSTERS = 3;
-const NUM_POINTS = 100;
+const NUM_POINTS = 10;
 
 clusterPoints(getRandomPoints(window.innerWidth, NUM_POINTS), NUM_CLUSTERS);
 
