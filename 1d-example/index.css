@@ -1,0 +1,13 @@
+.one-d-example {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.one-d-example .point {
+    position: absolute;
+    width: 2px;
+    height: 100vh;
+    background: red;
+}

@@ -1,0 +1,28 @@
+.sample-image {
+    width: 40vw;
+    height: auto;
+    margin: 40px auto;
+    display: block;
+    box-shadow: 0 0 10px 5px #eee;
+}
+
+.colors-found {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: stretch;
+    width: 100vw;
+}
+
+.colors-found .color {
+    order: 0;
+    flex: 1 1 auto;
+    align-self: stretch;
+    padding: 50px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    text-shadow: 0 0 10px #fff;
+}

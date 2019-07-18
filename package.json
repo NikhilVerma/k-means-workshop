@@ -1,0 +1,30 @@
+{
+    "name": "k-means-workshop",
+    "version": "1.0.0",
+    "description": "Workshop for k-means clustering",
+    "main": "index.js",
+    "repository": "git@github.com:NikhilVerma/k-means-workshop.git",
+    "author": "Nikhil Verma <nikhil.verma@corp.badoo.com>",
+    "license": "MIT",
+    "scripts": {
+        "1d": "parcel 1d-example/index.html",
+        "2d": "parcel 2d-example/index.html",
+        "image": "parcel image-example/index.html",
+        "build": "rm -rf dist && NODE_ENV=production parcel build index.html",
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "@types/eslint": "^4.16.6",
+        "@types/eslint-plugin-prettier": "^2.2.0",
+        "@types/lodash-es": "^4.17.3",
+        "@types/matter-js": "^0.10.2",
+        "@types/prettier": "^1.16.4",
+        "babel-eslint": "10.0.1",
+        "eslint": "^5.16.0",
+        "eslint-config-prettier": "^4.3.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "parcel-bundler": "^1.12.3",
+        "parcel-plugin-bundle-visualiser": "^1.2.0",
+        "prettier": "^1.18.2"
+    }
+}

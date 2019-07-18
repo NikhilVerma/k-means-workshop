@@ -1,0 +1,14 @@
+.two-d-example {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.two-d-example .point {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
